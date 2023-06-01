@@ -3,7 +3,7 @@ const express = require("express");
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-// security middleware import
+// security middleware import is
 const helmet = require("helmet");
 const cors = require("cors");
 const xss = require("xss-clean");
