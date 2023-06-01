@@ -50,7 +50,7 @@ mongoose
   .catch((error) => console.log(error));
 
 // routing implement
-app.use("/api/v1", router);
+app.use("/", router);
 
 // 404 route
 app.use((req, res) => {
